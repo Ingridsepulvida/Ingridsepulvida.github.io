@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--    CSS     -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!--    BOX ICON    -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>Página Pessoal</title>
+
+</head>
+<body>
+    <!--    HEADER  -->
+    <header class="header">
+        <a href="#" class="header_logo">Ingrid</a>
+
+        <ion-icon name="menu-outline" class="header_toggle" id="nav_toggle"></ion-icon>
+
+        <nav class="nav" id="nav_menu">
+            <div class="nav_content bd-grid">
+                <ion-icon name="close-outline" class="nav_close" id="nav-close"></ion-icon>
+
+                <div class="nav_menu">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                        <li class="nav_item"><a href="#about" class="nav_link">Sobre</a></li>
+                        <li class="nav_item"><a href="#skills" class="nav_link">Habilidades</a></li>
+                        <li class="nav_item"><a href="#courses" class="nav_link">Cursos</a></li>
+                        <li class="nav_item"><a href="#contact" class="nav_link">Contato</a></li>                       
+                    </ul>          
+                </div>
+                <div class="toggle">
+                    <input id="switch" type="checkbox" name="theme">
+                    <label for="switch" href="#home" class="nav_link active" >Toggle</label>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+    
+
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <!---->
+
+    <main class="1-main">
+        <!--    HOME    -->
+        <section class="home" id="home">
+            <div class="home_container bd-grid">
+                <div class="home_data">
+                    <div  id="fundo" class="home_img">
+                        <img id="minhafoto" src="assets/img/perfil.png"/>
+                    </div>
+                    
+                    <h1 class="home_title">Ingrid Sepulvida de Sousa</h1>
+                    <span class="home_profession">Técnica em Informática</span>
+
+                    <div class="home_social">
+                        <a href="https://www.linkedin.com/in/ingrid-sepulvida-730b641a4" class="home_social-link"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/Ingridsepulvida" class="home_social-link"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.facebook.com/ingrid.sepulvida" class="home_social-link"><i class='bx bxl-facebook-circle'></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!--    SOBRE   -->
+        <section class="about section" id="about">
+            <span class="section-subtitle">Minha introdução</span>
+            <h1 class="section-title">Sobre</h1>
+
+            <div class="about_container bd-grid">
+                <div class="about_data">
+                    <p class="about_description">Cursando o 3° ano do curso Técnico em Informática Integrado ao Ensino Médio no Instituto Federal de São Paulo com o objetivo de atuar como estagiária na área de Tecnologia da Informação.</p>
+                </div>
+
+                <div >
+                    <div class="about_information">
+                        <h3 class="about_information-title">Meus Dados</h3>
+                        <div class="about_information-data">
+                            <i class='bx bx-user about_information-icon'></i>
+                            <span>Ingrid Sepulvida de Sousa</span>
+                        </div>
+    
+                        <div class="about_information-data">
+                            <i class='bx bx-phone about_information-icon'></i>
+                            <span>+55 (11) 95133-1539</span>
+                        </div>
+    
+                        <div class="about_information-data">
+                            <i class='bx bx-envelope about_information-icon'></i>
+                            <span>ingridsepulvida8@gmail.com</span>
+                        </div>
+                    </div>
+    
+                    
+                    <div class="about_information">
+                        <h3 class="about_information-title">Formação Acadêmica</h3>
+    
+                        <div class="about_information-data">
+                            <i class='bx bx-book-alt about_information-icon'></i>
+                            <div>
+                                <span class="about_information-subtitle">Intituto Federal de Educação, Ciências e Tecnologia de São Paulo</span>
+                                <span class="about_information-subtitle-small">2017 - 2021</span>
+                            </div>
+                        </div>
+    
+                        <div class="about_information-data">
+                            <i class='bx bx-book-alt about_information-icon'></i>
+                            <div>
+                                <span class="about_information-subtitle">E E Carlos Alberto Pereira</span>
+                                <span class="about_information-subtitle-small">2015 - 2016</span>
+                            </div>
+                        </div>
+    
+                        <div class="about_information-data">
+                            <i class='bx bx-book-alt about_information-icon'></i>
+                            <div>
+                                <span class="about_information-subtitle">E E Rubens Calaos Ludwig</span>
+                                <span class="about_information-subtitle-small">2013 - 2015</span>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <!--    Habilidades     -->
+        <section class="skills section" id="skills">
+            <span class="section-subtitle">Minhas habilidades</span>
+            <h2 class="section-title">Conhecimentos</h2>
+
+            <div class="skills_container bd-grid">
+                <div class="skills_content">
+                    <h3 class="skills_subtitle">Programação</h3>
+
+                    <div class="skills_data">
+                        <span class="skills_name">HTML/CSS</span>
+                        <span class="skills_nm">Básico</span>
+                        <span class="skills_bar skills_html"></span>
+                    </div>
+
+                    <div class="skills_data">
+                        <span class="skills_name">JavaScript/Java</span>
+                        <span class="skills_nm">Básico</span>
+                        <span class="skills_bar skills_js"></span>
+                    </div>
+
+                    <div class="skills_data">
+                        <span class="skills_name">C/C++</span>
+                        <span class="skills_nm">Básico</span>
+                        <span class="skills_bar skills_c"></span>
+                    </div>
+
+                    <div class="skills_data">
+                        <span class="skills_name">MySQL</span>
+                        <span class="skills_nm">Básico</span>
+                        <span class="skills_bar skills_mysql"></span>
+                    </div>
+                </div>
+
+                <div class="skills_content">
+                    <h3 class="skills_subtitle">Informática Básica</h3>
+
+                    <div class="skills_data">
+                        <span class="skills_name">Excel</span>
+                        <span class="skills_nm">Básico</span>
+                        <span class="skills_bar skills_excel"></span>
+                    </div>
+
+                    <div class="skills_data">
+                        <span class="skills_name">Word</span>
+                        <span class="skills_nm">Intermediário</span>
+                        <span class="skills_bar skills_word"></span>
+                    </div>
+
+                    <div class="skills_data">
+                        <span class="skills_name">Power Point</span>
+                        <span class="skills_nm">Intermediário</span>
+                        <span class="skills_bar skills_powerpoint"></span>
+                    </div>
+
+                    <div class="skills_data">
+                        <span class="skills_name">Internet/Redes</span>
+                        <span class="skills_nm">Básico</span>
+                        <span class="skills_bar skills_internet"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--    Cursos     -->
+        <section class="courses section" id="courses">
+            <span class="section-subtitle">Formação Complementar</span>
+            <h2 class="section-title">Cursos</h2>
+
+            <div class="courses_container bd-grid">
+                <div class="courses_content">
+                    <div>
+                        <h3 class="courses_year">2012 - 2014</h3>
+                        <span class="courses_school">Escola técnica Ponto Profissional</span>
+                    </div>
+
+                    <div class="courses_time">
+                        <span class="courses_rounder"></span>
+                        <span class="courses_line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="courses_race">Certificado de Idioma</h3>
+                        <span class="courses_course">Inglês</span>
+                    </div>
+                </div>
+
+                <div class="courses_content">
+                    <div>
+                        <h3 class="courses_year">2014 - 2016</h3>
+                        <span class="courses_school">Centro de Ensino e Profissionalização Easycomp</span>
+                    </div>
+
+                    <div class="courses_time">
+                        <span class="courses_rounder"></span>
+                        <span class="courses_line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="courses_race">Certificado de Gestão Empresarial</h3>
+                        <span class="courses_course">Informática</span>
+                    </div>
+                </div>
+
+                <div class="courses_content">
+                    <div>
+                        <h3 class="courses_year">2014 - 2016</h3>
+                        <span class="courses_school">Centro de Ensino e Profissionalização Easycomp</span>
+                    </div>
+
+                    <div class="courses_time">
+                        <span class="courses_rounder"></span>
+                        <span class="courses_line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="courses_race">Certificado de Gestão Empresarial</h3>
+                        <span class="courses_course">Administração</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--CONTATO-->
+        <section class="contact section" id="contact">
+            <span class="section-subtitle">Entre em Contato</span>
+            <h2 class="section-title">Contato</h2>
+
+            <div class="contact_container bd-grid">
+                <form action="" class="contact_form">
+                    <div class="contact_inputs">
+                        <input type="text" placeholder="Nome" class="contact_input">
+                        <input type="mail" placeholder="Email" class="contact_input">
+                    </div>
+
+                    <textarea name="" id="" cols="0" rows="10" placeholder="Menssagem" class="contact_input"></textarea>
+
+                    <input type="submit" value="Enviar Menssagem" class="button contact_button">
+                </form>
+
+              
+            </div>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer section">
+        <div class="footer-container bd-grid">
+            <div>
+                <div class="contact_info">
+                    <h3 class="contact_subtitle">Ligue-me</h3>
+                    <span class="contact_text">+55 (11) 95133-1539</span>
+                </div>
+
+                <div class="contact_info">
+                    <h3 class="contact_subtitle">Email</h3>
+                    <span class="contact_text">ingridsepulvida8@gmail.com</span>
+                </div>
+
+                <div class="contact_info">
+                    <h3 class="contact_subtitle">Localização</h3>
+                    <span class="contact_text">(Rua), (número)</span>
+                    <span class="contact_text">(Bairro) - (Cidade) - (Estado)</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MAIN JS-->
+    <script src="assets/js/main.js"></script>
+    
+</body>
+</html>
