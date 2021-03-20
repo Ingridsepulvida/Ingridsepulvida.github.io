@@ -83,8 +83,8 @@ const initialColors = {
 }
 
 const darkMode = {
-    bg: "#333333",
-    text: "#E5E5E5",
+bg: "#0d1117",
+     text: "#E5E5E5",
 }
 
 const transformKey = key => 
